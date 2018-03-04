@@ -23,6 +23,38 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SelectActivity">
+            <intent-filter>
+                <action android:name="com.example.nedmk.rome.SelectActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UpdateActivity">
+            <intent-filter>
+                <action android:name="com.example.nedmk.rome.UpdateActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DeleteActivity">
+            <intent-filter>
+                <action android:name="com.example.nedmk.rome.DeleteActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MapActivity">
+            <intent-filter>
+                <action android:name="com.example.nedmk.rome.MapActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
